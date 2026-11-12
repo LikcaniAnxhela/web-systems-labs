@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/images.css">
+
+</head>
+<body>
+    <h1>Responsive images</h1>
+    <img src="images/P6120375.jpg" alt="Landscape">
+    <picture>
+        <source media="(min-width: 900px)"
+        srcset="images/art-1.jpg">
+        <source media="(min-width: 500px)"
+        srcset="images/art-2.jpg">
+        <img srz="images/art-3.jpg" alt="A painting">
+    </picture>
+</body>
+</html>

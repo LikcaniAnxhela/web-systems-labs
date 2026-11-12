@@ -1,0 +1,43 @@
+/*mobile first: one column */
+body{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+    grid-template-areas: "head" "nav" "main" "side" "foot";
+}
+
+header{
+    grid-area: head;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: side;
+}
+footer{
+    grid-area: foot;
+}
+header, nav, main, aside, footer{
+    padding: 20px;
+    border-radius: 8px;
+    background: #e0e7ff;
+}
+
+/*tablets and desktops*/
+@media (min-width: 768px){
+    body{
+        grid-template-columns: 180px 1fr 180px;
+        grid-template-areas: "head head head"
+        "nav main side"
+        "foot foot foot";
+    }
+    main{
+        min-height: 300px;
+    }
+}

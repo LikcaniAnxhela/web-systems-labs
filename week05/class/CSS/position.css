@@ -1,0 +1,16 @@
+.photo{
+    float: left; width: 220px;
+    margin: 0 20px 10px 0;
+    position: relative;
+}
+.photo img{
+    width : 100%; display: block;
+}
+.badge{
+    position: absolute; top:8px;
+    left: 8px; background: crimson; color: white;
+    padding: 2px 8px; border-radius: 4px;
+}
+.hide{
+    display: none;
+}

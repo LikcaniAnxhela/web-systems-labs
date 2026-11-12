@@ -1,0 +1,28 @@
+
+:root {
+    --main: #431c5d;
+    --accent: #e05915;
+    --light: #e6e9f0;
+    --pad: 8px;
+    --radius: 5px;
+}
+
+header {
+    background-color: var(--main);
+    color: var(--accent);
+    padding: var(--pad);
+}
+
+#results {
+    background-color: var(--main);
+    color: var(--light);
+    padding: var(--pad);
+    border-radius: var(--radius);
+}
+
+header button {
+    background-color: var(--accent);
+    color: var(--light);
+    padding: var(--pad);
+    border-radius: var(--radius);
+}

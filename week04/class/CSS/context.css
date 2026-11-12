@@ -1,0 +1,18 @@
+div time{
+    color: red;
+}
+#main > time {
+    color: purple;
+}
+
+hr + p{
+    color: green;
+}
+
+h3 ~ p{
+    color: orange;
+}
+
+/* h3 + p {
+    color: orange;
+} */

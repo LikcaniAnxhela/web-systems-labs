@@ -1,0 +1,36 @@
+
+.hero {
+background-image: url("../images/chicago.jpg");    background-size: cover;
+    height: 300px;
+    padding: 80px 40px;
+    /*background-size: contain;*/
+}
+
+.hero h1 {
+    color: white;
+    text-shadow: 0 2px 4px black;
+}
+
+.button {
+    background-color: deeppink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: indigo;
+    color: white;
+}
+
+.box:last-child {
+    background-color: darkgreen;
+}
